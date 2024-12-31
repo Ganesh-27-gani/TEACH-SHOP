@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop-Signup-page</title>
+    <style>
+        *{
+            background-color: rgb(31, 26, 26);
+             color: lightgray;
+        }
+        .division1{
+            display: flex;
+        }
+        .l-b1{
+            border: none;
+            color:rgb(113, 116, 106);
+        }
+        form input{
+            font-size:15px;
+            margin:7px;
+            border: 2px solid gray;
+            padding: 15px;
+            width:300px;
+        }
+        form button{
+            background-color:red;
+            width:340px;
+            border-radius: 7px;
+            border:solid rgb(31, 26, 26);
+            font-size: 15px;
+            padding:15px;
+            margin:6px;
+            cursor: pointer;
+        }
+        .signup{
+            position: relative;
+            left:500px;
+            color: rgb(31, 26, 26);
+            width: 500px;
+        }
+       hr{
+        width:309px;
+        position: relative;
+        right:76px;
+       }
+       span{
+        position: relative;
+        left: 110px;
+        background-color: #1f1a1a;
+        bottom: 18px;
+        padding: 18px;
+        margin: 4px;
+       }
+
+        
+       
+       .fb,.google,.twitter{
+        margin:7px;
+        padding:7px;
+        font-size: 15px;
+        width:100px;
+        border:solid rgb(31, 26, 26);
+        border-radius: 5px;
+    }
+       .fb{
+        background-color:#005d83;
+        cursor: pointer;
+       }
+       .google{
+        background-color:#ed8c13;
+        cursor:pointer;
+       }
+       .twitter{
+        background-color:#40a0c7;
+        cursor:pointer;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <h1 class="head">SignUp</h1>
+        <div class="discription_Div">
+           <aside class="discription"> Already have an account?</aside>
+           <button class="l-b1">Login</button>
+        </div>
+        <form class="Signupform">
+            <input type="text" placeholder="Username"/><br>
+            <input type="email" placeholder="E-mail"/><br>
+            <input type="password" placeholder="password"/><br>
+            <input type="password"  placeholder="Confirm password"/><br>
+            <button type="submit">SignUp</button>
+        </form>
+        <br><br>
+        <hr>
+        <span>or login with</span>
+        <div class="socialmedialinks">
+            <button class="fb">facebook</button>
+            <button class="google">Google</button>
+            <button class="twitter">Twitter</button>
+        </div>
+        </div>
+</body>
+</html>

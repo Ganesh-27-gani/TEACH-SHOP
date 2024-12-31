@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modal</title>
+    <style>
+        body {
+          background-image: none;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .dropdown {
+            background-color: #1a1919;
+            padding: 20px;
+            border: 1px solid #333;
+            width: 250px;
+            position: relative;
+        }
+
+        .dropdown h3 {
+            margin: 0;
+            font-size: 18px;
+            margin-bottom: 10px;
+             
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        .dropdown p {
+            margin: 0 0 15px 0;
+            font-size: 14px;
+            color: #aaa;
+        }
+        
+        .dropdown .button {
+            background-color: #222121;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 14px;
+            text-transform: uppercase;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .dropdown .button:hover {
+            background-color: #555;
+        }
+
+        .dropdown .message {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <a href="signup.html"><div class="dropdown">
+        <h3>Hello!</h3>
+        <p>Access account and manage orders</p>
+        <button class="button">Login / Signup</button>
+        <div class="message">Please Login</div>
+    </div></a>
+</body>
+</html>

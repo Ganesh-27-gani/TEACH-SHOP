@@ -383,8 +383,13 @@ body {
     color: #fff;
     padding: 20px 0;
   }
-  
-  .footer-top {
+  .footer-section .tech {
+   text-align: left;
+  }
+  .footer-section p{
+   text-align: left;
+  }
+    .footer-top {
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
@@ -400,9 +405,8 @@ body {
   
   .footer-section h3 {
     margin-bottom: 15px;
-  
     font-size: 20px;
-    text-align: center;
+    text-align: right;
   }
   
   .footer-section ul {
@@ -412,7 +416,7 @@ body {
   
   .footer-section ul li {
     margin: 5px 5px;
-    text-align: center;
+    text-align: right;
     
   }
   
@@ -420,10 +424,6 @@ body {
     color: #fff;
     text-decoration: linen;
     font-size: 12px;
-  }
-  
-  .footer-section ul li a:hover {
-    text-decoration: line;
   }
   
   .email-subscription {
@@ -461,7 +461,7 @@ body {
   }
   
   .gani {
-      background-color: #080707;
+      background-color: #0b0a0a;
       color: #fff;
       padding: 10px 20px;
       display: flex;

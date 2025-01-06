@@ -19,6 +19,30 @@ body {
     text-decoration: none;
     margin: 0 10px;
   }
+  .active{
+    position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  }
+  .active .tool{
+    visibility: hidden;
+    width: 120px;
+    
+    
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .active:hover .tool{
+    visibility: visible;
+    opacity: 1;
+
+  }
+
   header nav a:hover {
     text-decoration: underline;
   }

@@ -16,33 +16,56 @@ body {
   }
   header nav a {
     color: #f0f2f0ec;
-    text-decoration: none;
     margin: 0 10px;
   }
-  .active{
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 0;
+  }
+  .nav-item {
     position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+    margin: 0 15px;
+    
   }
-  .active .tool{
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    padding: 10px 0;
+    
+  }
+  
+  .nav-item a:hover {
+    color: #ddd;
+  }
+  .tooltip {
     visibility: hidden;
-    width: 120px;
-    
-    
-    
-    /* Position the tooltip */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  
     position: absolute;
-    z-index: 1;
-    top: 100%;
+    bottom: -35px;
     left: 50%;
-    margin-left: -60px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
   }
-  .active:hover .tool{
+  
+  .nav-item:hover .tooltip {
     visibility: visible;
     opacity: 1;
-
   }
-
+  
   header nav a:hover {
     text-decoration: underline;
   }
